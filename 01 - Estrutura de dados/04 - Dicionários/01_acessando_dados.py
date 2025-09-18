@@ -1,8 +1,10 @@
-dados = {"nome": "Guilherme", "idade": 28, "telefone": "3333-1234"}
+dados = {"nome": "Guilherme", "idade": 28, "telefone": "3333-1234", "email": "viniciusalulas7@gmail.com"}
 
 print(dados["nome"])  # "Guilherme"
 print(dados["idade"])  # 28
 print(dados["telefone"])  # "3333-1234"
+print(dados["email"])
+
 
 dados["nome"] = "Maria"
 dados["idade"] = 18
