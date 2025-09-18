@@ -13,7 +13,7 @@ numero3 = float(input("Digite a terceira nota: "))
 
 ## Aqui vemos uma váriavel nova onde está puxando a nossa função DEF, com os números que o usuário inputou, forma de chamar a função.
 media_calculada = calcular_media(numero1, numero2, numero3)
-## --------------------------------------------------------------##
+## --------------------------------------------------------------------------------------------------------------------------------##
 
 ## A famosa estrutura condicional, neste exemplo traz SE a média_calculada for maior ou igual a 7, o sistema irá exibir aluno aprovado
 #caso contrário não aprovado.
