@@ -1,5 +1,4 @@
 class Produto:
-    # O __init__ estava quase perfeito, apenas ajustei os nomes dos argumentos para clareza
     def __init__(self, nome, preco_inicial, estoque_inicial):
         self.nome = nome
         self.__preco = preco_inicial
