@@ -28,6 +28,7 @@ data_convertida = datetime.strptime(texto_da_data, "%d/%m/%Y %H:%M")
 print(f"Objeto datetime convertido: {data_convertida}")
 
 
+## fazer calculos com timedelta.
 agora = datetime.now()
 
 uma_semana_e_meia = timedelta(days=7, hours=12)
@@ -37,3 +38,5 @@ print(f"Daqui a 1 semana e 12h será: {data_futura.strftime('%d/%m/%Y %H:%M')}")
 
 diferenca = data_futura - agora
 print(f"A diferença entre as duas datas é de {diferenca.days} dias e {diferenca.seconds // 3600} horas.")
+
+

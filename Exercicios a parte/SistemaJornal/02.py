@@ -67,5 +67,5 @@ class MaquinaDeVendas:
             print("Erro: Por favor, insira um valor positivo.")
 
 
-
+     
 
